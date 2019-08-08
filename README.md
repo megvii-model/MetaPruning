@@ -2,31 +2,26 @@
 
 This is the pytorch implementation of our paper "MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning", https://arxiv.org/abs/1903.10258, published in ICCV 2019.
 
-To use the code, please cite "Liu, Z., Mu, H., Zhang, X., Guo, Z., Yang, X., Cheng, T. K. T., & Sun, J. (2019). MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning. arXiv preprint arXiv:1903.10258."
-
-<img width=60% src="https://github.com/liuzechun0216/images/blob/master/figure1.jpg"/>
-
-Traditional pruning decide prune which channel in each layer and pay human effort in setting the pruning ratio of each layer. MetaPruning automatically search for the best pruning ratio of each layer (i.e., number of channels in each layer). Inspired by the recent advance in Network Architecture Search, especially one-shot.
+Traditional pruning decide prune which channel in each layer and pay human effort in setting the pruning ratio of each layer. MetaPruning automatically search for the best pruning ratio of each layer (i.e., number of channels in each layer). 
 
 MetaPruning contains two steps: 
 1. train a meta-net (PruningNet), to provide reliable weights for all the possible combinations of channel numbers in each layer (Pruned Net structures).
 2. search for the best Pruned Net by evolutional algorithm and evaluate one best Pruned Net via training it from scratch.
 
+# Citation
 
-# Run
+If you use the code in your research, please cite:
 
-1. Requirements:
-    * python3, pytorch 1.1.0, torchvision 0.3.0
+	@article{liu2019metapruning,
+	  title={MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning},
+	  author={Liu, Zechun and Mu, Haoyuan and Zhang, Xiangyu and Guo, Zichao and Yang, Xin and Cheng, Tim Kwang-Ting and Sun, Jian},
+	  journal={arXiv preprint arXiv:1903.10258},
+	  year={2019}
+	}
 
-2. ImageNet data:
-    * You need to split the original training images into sub-validation dataset,  which contains 50000 images randomly selected from the training images with 50 images in each 1000-class, and sub-training dataset with the rest of images. Training the PruningNet with the sub-training dataset and searching the pruned network with the sub-validation dataset for inferring model accuracy. 
 
-3. Steps to run:
-    * Step1:  training
-    * Step2:  searching 
-    * Step3:  evaluating
+# To find the code and models
     
-    * After training the Pruning Net, checkpioint.pth.tar will be generated in the training folder, which will be loaded by the searching algorithm. After searching is done, the top1 encoding vector will be shown in the log. By simply copying the encoding vector to the rngs = \[ \] in evaluate.py, you can evaluate the Pruned Network corresponding to this encoding vector. 
 
 # Models
 
