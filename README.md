@@ -24,6 +24,6 @@ If you use the code in your research, please cite:
 
 Available on https://github.com/liuzechun/MetaPruning
 
-# Author Information
+# Author information
 
 If you have any questions, please do not hesitate to contact Zechun Liu (zliubq@connect.ust.hk).
