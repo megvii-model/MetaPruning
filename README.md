@@ -20,39 +20,10 @@ If you use the code in your research, please cite:
 	}
 
 
-# To find the code and models
-    
+# Code and models
 
-# Models
+Available on https://github.com/liuzechun/MetaPruning
 
+# Author Information
 
-MobileNet v1
-
-| | Uniform Baselines | | Meta Pruning| | | 
-| --- | --- | --- | --- | --- | --- | 
-| Ratio | Top1-Acc | FLOPs | Top1-Acc | FLOPs | Model |
-| 1x | 70.6% | 569M | - | - | - |
-| 0.75x | 68.4% | 325M | 70.9% | 316M | [Model-MetaP-Mbv1-0.75](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EXuAHjKVTa9Gkj4ZHET0s58BU9QGI9O88iEVLopWu-usdw?e=b0VcpJ) |
-| 0.5x  | 63.7% | 149M | 66.1% | 142M | [Model-MetaP-Mbv1-0.5 ](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/ERb0bJ7ggL5Du8v4mrLeVlkBEontkyhTWdDKIoMZQwHC2w?e=5pXdDh) |
-| 0.25x | 50.6% | 41M  | 57.2% | 41M  | [Model-MetaP-Mbv1-0.25]() |
-
-
-MobileNet v2
-
-| Uniform Baselines | | Meta Pruning| | | 
-| --- | --- | --- | --- | --- | 
-| Top1-Acc | FLOPs | Top1-Acc | FLOPs | Model |
-| 74.7% | 585M | - | - | - |
-| 72.0% | 313M | 72.7% | 303M | [Model-MetaP-Mbv2-300M](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EWtiXOwKblRNnQs_xtzpM8oBuQ7wlAXGzrlJgEPZ7aXc7Q?e=h1vn4s) |
-| 67.2% | 140M | 68.2% | 140M | [Model-MetaP-Mbv2-140M](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EcCbtJSanrdJs9xANHx6qSgBF3FzCN00uNTlDv2vJlZlNw?e=HoQmtY) |
-| 54.6% | 43M  | 58.3% | 43M  | [Model-MetaP-Mbv2-40M](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EX_Lna862JpHhLz7eWUBRqABdCh1_7wyxtaW4bE7PC3wuw?e=dEkWyv)  |
-
-
-ResNet
-
-| | Uniform Baselines | | Meta Pruning| | | 
-| --- | --- | --- | --- | --- | --- | 
-| Ratio | Top1-Acc | FLOPs | Top1-Acc | FLOPs | Model |
-| 1x | 76.6% | 4.1G | - | - | - |
-| 0.75x | 74.8% | 2.3G | 75.4% | 2.0G | [Model-MetaP-ResN-0.75](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EUpHJYfrtaFMn46Af94vqn4BgNr9AAZ6hskoWahtA8r5Tg?e=8ovp6p) |
-| 0.5x  | 72.0% | 1.1G | 73.4% | 1.0G | [Model-MetaP-ResN-0.5 ](https://hkustconnect-my.sharepoint.com/:u:/g/personal/zliubq_connect_ust_hk/EX8NhySdkw1NrUx9EYVCH0sBEJzgwM4ZS0Opv6WG0intJA?e=xMLY07) |
+If you have any questions, please do not hesitate to contact Zechun Liu (zliubq@connect.ust.hk).
