@@ -1,6 +1,6 @@
 # MetaPruning
 
-This is the pytorch implementation of our paper "MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning", https://arxiv.org/abs/1903.10258, published in ICCV 2019. 
+This is the pytorch implementation of our paper "MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning", https://arxiv.org/abs/1903.10258, published in ICCV 2019. To use the code, please cite "Liu, Z., Mu, H., Zhang, X., Guo, Z., Yang, X., Cheng, T. K. T., & Sun, J. (2019). MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning. arXiv preprint arXiv:1903.10258."
 
 <img width=60% src="https://github.com/liuzechun0216/images/blob/master/figure1.jpg"/>
 
