@@ -2,7 +2,7 @@
 
 This is the pytorch implementation of our paper "MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning", https://arxiv.org/abs/1903.10258, published in ICCV 2019.
 
-Traditional pruning decide prune which channel in each layer and pay human effort in setting the pruning ratio of each layer. MetaPruning automatically search for the best pruning ratio of each layer (i.e., number of channels in each layer). 
+Traditional pruning decides pruning which channel in each layer and pays human effort in setting the pruning ratio of each layer. MetaPruning can automatically search for the best pruning ratio of each layer (i.e., number of channels in each layer). 
 
 MetaPruning contains two steps: 
 1. train a meta-net (PruningNet), to provide reliable weights for all the possible combinations of channel numbers in each layer (Pruned Net structures).
